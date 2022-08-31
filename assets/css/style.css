@@ -1,32 +1,32 @@
 .portfolio-details {
- padding-top: 40px;
-}
+ padding-top: 55px;
+}/*pading arriba de pelota*/
 
 .portfolio-details .portfolio-details-slider img {
- width: 100%;
-}
+ width: 70%;
+}/*resolucion de la imagen tamaño*/
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
  margin-top: 20px;
  position: relative;
-}
+}/*margen entre imagen y 3 puntitos*/
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
  width: 12px;
  height: 12px;
  background-color: #fff;
  opacity: 1;
- border: 1px solid #106eea;
-}
+ border: 1px solid #FF9FFF;
+}/*color de los 3 puntitos*/
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
- background-color: #106eea;
-}
+ background-color: #FF9FFF;
+}/*color de los 3 puntitos*/
 
 .portfolio-details .portfolio-info {
- padding: 30px;
+ padding: 35px;
  box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
-}
+}/*pading de la caja con */
 
 .portfolio-details .portfolio-info h3 {
  font-size: 22px;
@@ -54,10 +54,13 @@
  font-size: 26px;
  font-weight: 700;
  margin-bottom: 20px;
+ text-align:center;
 }
 
 .portfolio-details .portfolio-description p {
- padding: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align:justify;
 }
 
 
