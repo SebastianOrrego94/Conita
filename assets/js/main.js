@@ -4,6 +4,8 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
 (function() {
   "use strict";
 
@@ -34,7 +36,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -73,6 +75,20 @@
       behavior: 'smooth'
     })
   }
+
+ new Swiper('.portfolio-details-slider', {
+   speed: 400,
+   loop: true,
+   autoplay: {
+     delay: 5000,
+     disableOnInteraction: false
+   },
+   pagination: {
+     el: '.swiper-pagination',
+     type: 'bullets',
+     clickable: true
+   }
+ });
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
@@ -172,14 +188,14 @@
   }
 
   /**
-   * Initiate glightbox 
+   * Initiate glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
   /**
-   * Initiate Gallery Lightbox 
+   * Initiate Gallery Lightbox
    */
   const galelryLightbox = GLightbox({
     selector: '.galelry-lightbox'
@@ -215,7 +231,7 @@
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate Pure Counter
    */
   new PureCounter();
 
