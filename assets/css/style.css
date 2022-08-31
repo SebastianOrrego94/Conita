@@ -1,3 +1,66 @@
+.portfolio-details {
+ padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+ width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+ margin-top: 20px;
+ position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+ width: 12px;
+ height: 12px;
+ background-color: #fff;
+ opacity: 1;
+ border: 1px solid #106eea;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+ background-color: #106eea;
+}
+
+.portfolio-details .portfolio-info {
+ padding: 30px;
+ box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+ font-size: 22px;
+ font-weight: 700;
+ margin-bottom: 20px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+ list-style: none;
+ padding: 0;
+ font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+ margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+ padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+ font-size: 26px;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+ padding: 0;
+}
+
+
 /*BOTON WHATSAPP*/
 .redes-flotantes {
 position: fixed;
@@ -214,7 +277,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #2c4964;
+  color: #76235C;
 }
 
 #header .logo img {
@@ -282,7 +345,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #2c4964;
+  color: #76235C;
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -375,7 +438,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #2c4964;
+  color: #76235C;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -436,7 +499,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #76235C;
   border: none;
 }
 
@@ -506,11 +569,11 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: #76235C;
 }
 
 #hero h2 {
-  color: #2c4964;
+  color: #76235C;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -591,7 +654,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2c4964;
+  color: #76235C;
 }
 
 .section-title h2::before {
@@ -758,7 +821,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #2c4964;
+  color: #76235C;
   margin-bottom: 15px;
 }
 
@@ -1012,7 +1075,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: #76235C;
 }
 
 .services .icon-box p {
@@ -1156,7 +1219,7 @@ section {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
-  color: #2c4964;
+  color: #76235C;
   border-radius: 0;
   border-right: 2px solid #ebf1f6;
   font-weight: 600;
@@ -1181,7 +1244,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #2c4964;
+  color: #76235C;
 }
 
 .departments .details p {
@@ -1240,7 +1303,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #2c4964;
+  color: #76235C;
 }
 
 .doctors .member span {
@@ -1540,7 +1603,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #2c4964;
+  color: #76235C;
 }
 
 .contact .info p {
